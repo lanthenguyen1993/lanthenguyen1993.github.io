@@ -1,10 +1,10 @@
-function BiggerButton() {
+function bigz() {
    var text = document.getElementById("feedme");
    text.style.fontSize = "24pt";
 }
 
 //bold
-function FancyShmancyRadio() {
+function boldz() {
    var text = document.getElementById("feedme");
    text.style.fontWeight = "bold";
    text.style.color= "blue";
@@ -12,7 +12,7 @@ function FancyShmancyRadio() {
 }
 
 //unbold
-function BoringBettyRadio() {
+function boringz() {
    var text = document.getElementById("feedme");
    text.style.fontSize = "initial";
    text.style.fontWeight = "normal";
@@ -21,9 +21,9 @@ function BoringBettyRadio() {
 }
 
 //uppercase+ -Moo suffix
-function MooButton(){
-    let str = document.getElementById("userText");
-    str.style.textTransform = "uppercase";
-    let part = str.value.split(".");
-    str.value = part.join("-Moo");
+function mooz() {
+   var suffix = '-Moo',
+   txt = document.getElementById('feedme');
+   txt.style.textTransform="uppercase";
+   txt.value = txt.value.split('.').join('') + suffix;
 }
