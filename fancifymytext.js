@@ -1,10 +1,10 @@
-function bigz() {
+function BiggerButton() {
    var text = document.getElementById("feedme");
    text.style.fontSize = "24pt";
 }
 
 //bold
-function boldz() {
+function FancyShmancyRadio() {
    var text = document.getElementById("feedme");
    text.style.fontWeight = "bold";
    text.style.color= "blue";
@@ -12,7 +12,7 @@ function boldz() {
 }
 
 //unbold
-function boringz() {
+function BoringBettyRadio() {
    var text = document.getElementById("feedme");
    text.style.fontSize = "initial";
    text.style.fontWeight = "normal";
