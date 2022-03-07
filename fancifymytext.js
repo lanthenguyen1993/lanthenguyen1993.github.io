@@ -21,9 +21,9 @@ function boringz() {
 }
 
 //uppercase+ -Moo suffix
-function mooz() {
-   var suffix = '-Moo',
-   txt = document.getElementById('feedme');
-   txt.style.textTransform="uppercase";
-   txt.value = txt.value.split('.').join('') + suffix;
+function MooButton(){
+    let str = document.getElementById("userText");
+    str.style.textTransform = "uppercase";
+    let part = str.value.split(".");
+    str.value = part.join("-Moo");
 }
