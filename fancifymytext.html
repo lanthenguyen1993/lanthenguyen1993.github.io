@@ -11,25 +11,24 @@
 	<body>
 		<h1>Fancify my Text</h1>
 		<!-- Your UI controls go here -->
-       
+    
 		<form>
             <fieldset>
-                <legend>Enter your text</legend>
+                <legend>Text</legend>
 			    <label for="Input"><!--Text--></label>
 			    <textarea id="feedme" type="text" rows="4" cols="30" wrap="hard" placeholder="Enter text here.."></textarea>
             </fieldset>
 		</form>
-        
+       
         <form>
             <fieldset>
-			<legend>Fancify</legend>
-				<button onclick="BiggerButton()">Bigger</button> <br>
-				<input type="radio" id="Fancy" name="Fancify" onchange="FancyShmancyRadio()">
-				<label for="Fancy">FancyShmancy</label>
-				<input type="radio" id="Betty" name="Fancify" onchange="BoringBettyRadio()">
-				<label for="Betty">BoringBetty</label><br/>
-				<button onclick=" MooButton()">Moo</button> <br>
-		</fieldset>
+                <legend>Fancify</legend>
+                <label for="Buttons"><!--Fancify--></label>
+                <button type ="button" value="Bigger!" onclick="bigz()">Bigger!</button>
+                <input type="radio" name="FancyShmancy" value="FancyShmancy" onchange="boldz()"> FancyShmancy
+                <input type="radio" name="BoringBetty" value="BoringBetty" onchange="boringz()"> BoringBetty
+                <button type="button" name="Moo" value="moo" onclick="mooz()">Moo</button>
+            </fieldset>  
         </form>
 
 	</body>
